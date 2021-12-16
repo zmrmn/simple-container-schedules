@@ -1,0 +1,16 @@
+{
+  "name": "simple-container-schedules",
+  "version": "1.0.0",
+  "description": "Perfom simple functions like start, stop,restart by given interval on other containers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "zmrmn",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "dockerode": "^3.3.1"
+  }
+}
